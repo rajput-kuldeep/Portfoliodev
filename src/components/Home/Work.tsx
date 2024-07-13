@@ -74,7 +74,7 @@ const Work = () => {
                     </div>
 
                 </div>
-                <button className=" demo absolute text-lg bottom-[0] px-4 py-4 bg-[#d1d1d1] text-[0.8vw] border-none rounded-[50px]">book a Demo</button>
+                <Link className=" demo absolute text-lg bottom-[0] px-4 py-4 bg-[#d1d1d1] text-[0.8vw] border-none rounded-[50px] hover:bg-[#1B9AAA]" to="contact-us"><button >book a Demo</button></Link>
             </div>
             </div>
         </>

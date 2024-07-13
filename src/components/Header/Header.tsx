@@ -7,7 +7,7 @@ import { useRef } from "react";
 const Header = () => {
 
   const logoRef = useRef(null)
-  let link1Ref = useRef(null)
+  const link1Ref = useRef(null)
   const link2Ref = useRef(null)
   const link3Ref = useRef(null)
   const link4Ref = useRef(null)
@@ -22,7 +22,7 @@ const Header = () => {
   })
   return (
     <>
-    <div className="flex justify-between p-3 text-white bg-black">
+    <div className="flex justify-between p-3 headerimg ">
       <div>
         <h1 ref={logoRef} className= "logo text-2xl font-bold text-orange-500">Logo</h1>
       </div>
