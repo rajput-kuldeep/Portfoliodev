@@ -14,8 +14,8 @@ import { PiTelegramLogo } from "react-icons/pi";
 
 const Contact = () => {
 
-    let headingRef = useRef(null)
-    let paraRef = useRef(null)
+    const headingRef = useRef(null)
+    const paraRef = useRef(null)
     const inputRef = useRef(null)
 
     useGSAP(() => {

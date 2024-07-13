@@ -10,11 +10,11 @@ gsap.registerPlugin(ScrollTrigger)
 
 const HomeBanner01 = () => {
 
-let animateRef = useRef(null)
+const animateRef = useRef(null)
 
 useGSAP(() => {
     
-  let tl = gsap.timeline({
+  const tl = gsap.timeline({
     scrollTrigger : {
       trigger : "#main",
       start : "50% 50%",
