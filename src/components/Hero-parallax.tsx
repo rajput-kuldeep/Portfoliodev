@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 "use client";
 
 import { HeroParallax } from "../components/ui/hero-parallax/HeroParallax";
