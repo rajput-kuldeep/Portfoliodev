@@ -1,4 +1,5 @@
 
+
 const Expertise = () => {
     return (
         <>
@@ -9,6 +10,7 @@ const Expertise = () => {
                         <div className="w-48 border-[2.5px] rounded-xl m-auto border-[#1B9AAA]  "></div>
                         <p className="text-2xl font-medium leading-normal ml-2 tracking-wider text-start ">Discover my arsenal of frontend tools & technologies — TypeScript, React, Redux, Next.js & more. From UI libraries like Material UI & shadcn/ui to custom animations using GSAP & Framer Motion, I deliver stunning user experiences.</p>
                     </div>
+
                     <div className="flex items-center justify-between w-full px-10 mt-10 ">
                         <div>
                             <img src="React.svg" alt="" className="w-14 mb-4 " />

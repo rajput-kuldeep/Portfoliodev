@@ -1,24 +1,23 @@
-// import HomeBanner01 from "@/components/Home/HomeBanner01";
 
-import { HeroParallaxDemo } from "@/components/Hero-parallax";
+import { BackgroundBeamsDemo } from "@/components/BackgroundBeamsDemo";
 import Expertise from "@/components/Home/Expertise";
-import ProjectCard from "@/components/Home/ProjectCard";
-// import HomeLanding from "@/components/Home/HomeLanding";
+import HomeBanner01 from "@/components/Home/HomeBanner01";
 import Technology from "@/components/Home/Technology";
+import Work from "@/components/Home/Work";
+
 
 
 
 const Home = () => {
   return (
     <div>
-      {/* <HomeLanding /> */}
-      <HeroParallaxDemo />
 
-       {/* <HomeBanner01 /> */}
+      <BackgroundBeamsDemo />
+       <HomeBanner01 />
       <Expertise />
       <Technology />
-      {/* <Work />  */}
-       <ProjectCard />
+      <Work /> 
+  
     </div>
   )
 };

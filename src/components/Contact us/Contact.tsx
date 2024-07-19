@@ -27,7 +27,7 @@ const Contact = () => {
         gsap.from(".links", 2, {x : 500, opacity : 0, scale : .2})
     }, [])
     return (
-        <div className=" w-screen h-screen bg-black pt-10 px-20 ">
+        <div className=" w-screen h-screen bg-black pt-10 px-20 pb-20 ">
             <div className="">
                 <div className="">
                     <h1 ref={headingRef} className="headingRef  text-5xl text-[#1B9AAA] font-bold text-center">Get in touch</h1>

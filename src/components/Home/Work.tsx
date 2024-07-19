@@ -63,13 +63,13 @@ const Work = () => {
                 <div className="our-work-txt-div flex items-center justify-center overflow-hidden relative w-[60vw] h-0 bg-white ">
                     <div className="w-[100%] h-[80vh] bg-[#919191] overflow-hidden ">
                         <div className="scroll-img w-full mt-0  ">
-                            <Link to="contact-us"><img src="1.avif" alt="" className="w-[100%] mb-2" /></Link>
-                            <img src="1.avif" alt="" className="w-[100%]"/>
-                            <img src="1.avif" alt="" className="w-[100%]"/>
-                            <img src="1.avif" alt="" className="w-[100%]"/>
-                            <img src="1.avif" alt="" className="w-[100%]"/>
-                            <img src="1.avif" alt="" className="w-[100%]"/>
-                            <img src="1.avif" alt="" className="w-[100%]"/>
+                            <Link to="contact-us"><img src="swiggy.png" alt="" className="w-[100%] mb-2" /></Link>
+                            <Link to="contact-us"><img src="landing.png" alt="" className="w-[100%] mb-2" /></Link>
+                            <Link to="contact-us"><img src="currency.png" alt="" className="w-[100%] mb-2" /></Link>
+                            <Link to="contact-us"><img src="portfolio.png" alt="" className="w-[100%] mb-2" /></Link>
+                            <Link to="contact-us"><img src="pcl.png" alt="" className="w-[100%] mb-2" /></Link>
+                            <Link to="contact-us"><img src="pcl.png" alt="" className="w-[100%] mb-2" /></Link>
+                           
                         </div>
                     </div>
 

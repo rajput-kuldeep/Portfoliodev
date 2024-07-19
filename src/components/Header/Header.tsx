@@ -22,9 +22,9 @@ const Header = () => {
   })
   return (
     <>
-    <div className="flex justify-between p-3 headerimg ">
+    <div className="flex justify-between p-3 headerimg bg-black text-white ">
       <div>
-        <h1 ref={logoRef} className= "logo text-2xl font-bold text-orange-500">Logo</h1>
+        <h1 ref={logoRef} className= "logo text-2xl font-bold text-orange-500"><img src="logo.png" alt="" className="w-20"/></h1>
       </div>
     <div className="flex justify-end">
       <ul className="flex gap-10 text-lg font-medium">
