@@ -7,7 +7,7 @@ import {  createBrowserRouter, RouterProvider } from 'react-router-dom'
 import About from './Pages/About.tsx'
 import ContactUs from './components/Contact us/Contact.tsx'
 import Home from './Pages/Home.tsx'
-import ContactForm from './components/contact-form/ContactForm.tsx'
+
 
 
 const router = createBrowserRouter([
@@ -29,10 +29,7 @@ const router = createBrowserRouter([
       path : "contact-us",
       element : <ContactUs />
     },
-    {
-      path : "contact-form",
-      element : <ContactForm />
-    }
+   
     ]
   }
 ])

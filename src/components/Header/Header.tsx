@@ -15,7 +15,7 @@ const Header = () => {
     const timeline  = gsap.timeline()
 
     timeline.from(".logo", .8, {opacity : 0, y : 100})
-    timeline.from([".link1", ".link2", ".link3", ".link4"], 1.3, {opacity : 0, y : -200, stagger : {amount : .4}, ease : "power3.out"})
+    timeline.from([".link1", ".link2",  ".link4"], 1.3, {opacity : 0, y : -200, stagger : {amount : .4}, ease : "power3.out"})
 
 
   })
@@ -29,7 +29,6 @@ const Header = () => {
       <ul className="flex gap-20 text-lg font-medium ">
       <li className="link1 hover:text-[#1B9AAA]"  ref={link1Ref}><NavLink to='/'>Home</NavLink> </li>
       <li className="link2 hover:text-[#1B9AAA]" ref={link2Ref}><NavLink to='about'>About</NavLink> </li>
-      <li className="link2 hover:text-[#1B9AAA]" ><NavLink to='contact-form'>ContactUs</NavLink> </li>
       <li className="link4 hover:text-[#1B9AAA]" ref={link4Ref}><NavLink to='contact-us'>Contact-us</NavLink> </li>
       </ul>
     </div>
