@@ -4,10 +4,10 @@ import App from './App.tsx'
 import './index.css'
 import {  createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import About from './components/About/About.tsx'
-import Services from './components/Serices/Services.tsx'
+import About from './Pages/About.tsx'
 import ContactUs from './components/Contact us/Contact.tsx'
 import Home from './Pages/Home.tsx'
+import ContactForm from './components/contact-form/ContactForm.tsx'
 
 
 const router = createBrowserRouter([
@@ -24,13 +24,14 @@ const router = createBrowserRouter([
       path : "/about",
       element : <About />
     },
-    {
-      path : "services",
-      element : <Services />
-    },
+
     {
       path : "contact-us",
       element : <ContactUs />
+    },
+    {
+      path : "contact-form",
+      element : <ContactForm />
     }
     ]
   }

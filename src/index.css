@@ -15,7 +15,7 @@
 .img{
   width: 100%;
   height: 100%;
-  background-image: url(full.webp  );
+  background-image: url(swiggy.png  );
   background-position: center;
   background-size: 130%;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
@@ -26,48 +26,20 @@
 .img2{
   width: 100%;
   height: 100%;
-  background-image: url(2.jpg);
+  background-image: url(portfolio.png);
   background-size: 130%;
   background-position: center;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 
 
-/* .box-1{
-  background: url(pcl.png) no-repeat 50% 50%;
-  background-size: cover;
-  background-position: center;
-
-  width: 200px;
-  border : .5px solid gray;
-  height: 250px;
-}
-.box-2{
-  background: url(currency.png) no-repeat 50% 50%;
-  background-size: cover;
-  background-position: center;
-  width: 250px;
-  border : .5px solid gray;
-  height: 330px;
-}
-.box-3{
-  background: url(1.webp) no-repeat 50% 50%;
-  background-size: cover;
-  background-position: center;
-  width: 270px;
-  border : .5px solid gray;
-  height: 320px;
-} */
 
 
 .scroll-img{
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 
-/* .main-img{
-  background-image: url(main-4.jpg);
-  background-size: cover;
-  background-position: center;
-  
-  background-repeat: no-repeat;
-} */
+
+.font{
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
