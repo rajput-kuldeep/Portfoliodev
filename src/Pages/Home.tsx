@@ -16,9 +16,10 @@ const Home = () => {
        <HomeBanner01 />
       <Expertise />
       <Technology />
-      <Work /> 
+       <Work />  
   
     </div>
+  
   )
 };
 

@@ -7,7 +7,7 @@ import { aboutCards }  from "@/data/ProjectData";
 const ProjectDisplay = () => {
   return (
     <div className="bg-black text-white">
-       <div className='py-10 lg:py-20 w-full'>
+       <div className='py-28 mt-20 lg:py-20 w-full'>
             {
                 aboutCards.map((cardData: DescriptionCardType) => (
                     <Projects

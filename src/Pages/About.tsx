@@ -4,7 +4,7 @@ import ProjectDisplay from "@/components/About/ProjectDisplay"
 const About = () => {
     return (
     <div className="bg-black">
-    <AboutHeroSection />
+    // <AboutHeroSection />
     <ProjectDisplay />
     </div>
     )

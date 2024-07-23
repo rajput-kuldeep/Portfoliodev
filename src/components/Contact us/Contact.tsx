@@ -67,47 +67,47 @@ const Contact = () => {
     };
 
     return (
-        <div className=" w-screen h-screen bg-black z-50 pt-10 px-20 pb-28 relative">
-            <div className="">
-                <div className="">
+        <div className=" w-full bg-black z-50 pt-10 lg:px-20 lg:pb-28 lg:relative pb-20">
+            
+                <div className="px-10">
                     <h1
                         ref={headingRef}
-                        className="headingRef  text-5xl text-[#1B9AAA] font-bold text-center"
+                        className="headingRef text-2xl text-start lg:text-5xl text-[#1B9AAA] font-bold lg:text-center"
                     >
                         Get in touch
                     </h1>
                     <p
                         ref={paraRef}
-                        className=" paraRef text-2xl text-white mt-4 font-medium text-center"
+                        className=" paraRef text-start lg:text-2xl text-white mt-4 font-medium lg:text-center"
                     >
                         Fill your name and gmail and give us a message
                     </p>
                 </div>
 
-                <div className="flex gap-20 px-20 mt-10">
-                    <div className="w-[40%]">
-                        <p className="line text-start text-[#1B9AAA] text-2xl font-bold">
+                <div className="flex flex-col lg:gap-20 lg:px-20 mt-10">
+                    <div className="lg:w-[40%] px-10">
+                        <p className="line text-start text-[#1B9AAA] lg:text-2xl font-bold">
                             Contact Info
                         </p>
                         <div className="line border-[2px] w-full rounded-xl mb-5 mt-1"></div>
                         <div className="flex flex-col gap-10">
                             <div className="icon-divide text-start">
-                                <h1 className="text-start flex text-2xl font-bold text-white items-center gap-2">
-                                    <FaMapMarkerAlt className="text-[#1B9AAA] text-2xl" /> Address
+                                <h1 className="text-start flex text-lg lg:text-2xl font-bold text-white items-center gap-2">
+                                    <FaMapMarkerAlt className="text-[#1B9AAA] text-lg lg:text-2xl" /> Address
                                 </h1>
                                 <p className="pl-7 text-white font-medium">Gurgaon</p>
                             </div>
 
                             <div className="icon-divide text-start">
-                                <h1 className="text-start flex text-2xl font-bold text-white items-center gap-2">
-                                    <FaPhone className="text-[#1B9AAA] text-2xl" /> Phone
+                                <h1 className="text-start flex text-lg lg:text-2xl font-bold text-white items-center gap-2">
+                                    <FaPhone className="text-[#1B9AAA] text-lg lg:text-2xl" /> Phone
                                 </h1>
                                 <p className="pl-7 text-white font-medium">9991481979</p>
                             </div>
 
                             <div className="icon-divide text-start">
-                                <h1 className="text-start flex text-2xl font-bold text-white items-center gap-2">
-                                    <IoIosMail className="text-[#1B9AAA] text-2xl" /> Gmail
+                                <h1 className="text-start flex text-lg lg:text-2xl font-bold text-white items-center gap-2">
+                                    <IoIosMail className="text-[#1B9AAA] text-lg lg:text-2xl" /> Gmail
                                 </h1>
                                 <p className="pl-7 text-white font-medium">
                                     ks9842237@gmail.com
@@ -116,8 +116,8 @@ const Contact = () => {
                         </div>
                     </div>
                     <div></div>
-                    <div className="flex flex-col  w-[45%] text-start">
-                        <h1 className="line text-[#1B9AAA] text-2xl font-bold">
+                    <div className="lg:flex lg:flex-col w-full px-10 mt-10 lg:mt-0  lg:w-[45%] text-start bg-black">
+                        <h1 className="line text-[#1B9AAA] text-xl lg:text-2xl font-bold px-0">
                             Message Me
                         </h1>
                         <div className="line border-[2px] rounded-xl mb-5 mt-1"></div>
@@ -157,7 +157,7 @@ const Contact = () => {
 
                             
 
-                            <div className=" links flex gap-10 px-5 justify-center mt-8">
+                            <div className=" links flex flex-col lg:flex-row gap-10 px-5 justify-center mt-8">
                                 <div>
                                     <Link
                                         className="bg-[#1B9AAA] px-3 py-2 text-3xl rounded-xl"
@@ -223,7 +223,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        
     );
 };
 

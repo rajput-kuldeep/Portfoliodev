@@ -5,8 +5,9 @@ import './index.css'
 import {  createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import About from './Pages/About.tsx'
-import ContactUs from './components/Contact us/Contact.tsx'
+
 import Home from './Pages/Home.tsx'
+import ContactUs from './Pages/ContactUs.tsx'
 
 
 

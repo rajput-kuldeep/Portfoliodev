@@ -22,26 +22,23 @@ const HomeLanding = () => {
     })
   return (
     <div>
-      <div>
-        
-      </div>
-    <div className=" flex gap-20 bg-black ">
+    <div className="flex flex-col lg:flex-row  lg:gap-32 bg-black ">
       
         
-      <div className="content flex flex-col items-start justify-center mt-3 h-[100vh] w-[35vw] ml-[130px] ">
-            <h1 ref={h1} className=" heading text-[45px] font-bold text-white ">
-                <div className="overflow-hidden mt-[-200px] text-6xl font-extrabold ">Hello,  <br /> <span className="text-5xl">I AM <span className="text-[#1B9AAA]">KULDEEP SINGH </span></span></div>
-                <br />
-                <div className="overflow-hidden mt-[-50px]">FRONTEND DEVELOPER</div>
+      <div className="content flex flex-col leading-loose items-start justify-center pl-9 lg:mt-3 lg:h-[100vh] lg:w-[40vw] lg:ml-[130px] ">
+            <h1 ref={h1} className=" heading font-bold text-white leading-loose ">
+                <div className="overflow-hidden text-3xl lg:mt-[-200px] lg:text-7xl font-extrabold">Hello,  <br /> <span className="text-3xl lg:text-5xl">I AM <span className="text-[#1B9AAA]">KULDEEP SINGH </span></span></div>
+                
+                <div className="overflow-hidden text-2xl lg:text-4xl">FRONTEND DEVELOPER</div>
             </h1>
-            <p ref={para} className=" para text-[25px] w-[80%] text-[#f0f0f0] font-semibold">
+            <p ref={para} className=" para text-sm lg:text-[25px] w-[80%] text-[#f0f0f0] font-semibold leading-relaxed tracking-wider">
             Transforming Vision into Reality Through Web Development
             </p>
-            <button ref={button} className=" button w-[150px] p-[5px] mt-[40px] border-[2px] rounded-3xl capitalize text-white text-lg hover:bg-[#1B9AAA]">Explore</button>
+            <button ref={button} className=" button w-[150px] p-[5px] mt-7 lg:mt-[40px] border-[2px] rounded-3xl capitalize text-white text-lg hover:bg-[#1B9AAA]">Explore</button>
       </div>
 
-      {/* <img src="development.webp" alt="" className="h-[80vh] " /> */}
-      <Lottie animationData={Animation} style={{ width: 600, height: 600 }} className="ml-20" />
+  
+      <Lottie animationData={Animation}  className="lg:mb-32 px-5" />
     </div>
     </div>
   )
