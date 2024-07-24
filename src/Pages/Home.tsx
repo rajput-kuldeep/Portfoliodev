@@ -11,7 +11,7 @@ import HomeLanding from "@/components/Home/HomeLanding";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-black">
 
       <HomeLanding />
        <HomeBanner01 />
