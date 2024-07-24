@@ -52,8 +52,8 @@ useGSAP(() => {
     <>
      <div ref={animateRef}>
       <div id="main" className="w-[100vw] h-[80vh] lg:h-[100vh] bg-black   lg:bg-[#1B9AAA]">
-        <div className="svg w-full h-full bg-orange-300 ">
-        <div className="img">
+        <div className="svg bg-[] w-full h-full bg-orange-300 ">
+        <div className="img ">
           <div className="svg2">
             <div className="img2">
 

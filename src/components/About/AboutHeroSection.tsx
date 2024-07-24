@@ -6,7 +6,7 @@ const   AboutHeroSection = () => {
 
     return (
         <>
-        <div className="bg-black w-full">
+        <div className="bg-black w-full lg:h-40">
             <Lottie animationData={About} className="relative w-[100vw]" />
             <div className="absolute top-32">
                 <h1 className="text-3xl px-5  font-bold lg:px-24 lg:text-7xl text-[#1B9AAA]">About Me</h1>
