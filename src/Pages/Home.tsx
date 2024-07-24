@@ -1,7 +1,9 @@
 
+import React from "react";
 import Expertise from "@/components/Home/Expertise";
-import HomeBanner01 from "@/components/Home/HomeBanner01";
-import HomeLanding from "@/components/Home/HomeLanding";
+
+const HomeLanding = React.lazy(() => import("@/components/Home/HomeLanding"))
+const HomeBanner01 = React.lazy(() => import("../components/Home/HomeBanner01"))
 import Technology from "@/components/Home/Technology";
 import Work from "@/components/Home/Work";
 

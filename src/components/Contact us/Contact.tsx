@@ -84,7 +84,7 @@ const Contact = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-col lg:gap-20 lg:px-20 mt-10">
+                <div className="flex flex-col lg:flex-row lg:gap-20 lg:px-20 mt-10">
                     <div className="lg:w-[40%] px-10">
                         <p className="line text-start text-[#1B9AAA] lg:text-2xl font-bold">
                             Contact Info
@@ -157,7 +157,7 @@ const Contact = () => {
 
                             
 
-                            <div className=" links flex flex-col lg:flex-row gap-10 px-5 justify-center mt-8">
+                            <div className=" links flex flex-col lg:flex-row gap-8 px-5 justify-center mt-8">
                                 <div>
                                     <Link
                                         className="bg-[#1B9AAA] px-3 py-2 text-3xl rounded-xl"
