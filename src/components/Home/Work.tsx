@@ -46,7 +46,7 @@ const Work = () => {
         }, 'height')
  
         timeline.to(".scroll-img", {
-            marginTop : "-300%"
+            marginTop : "-230%"
         })
 
 
@@ -61,14 +61,14 @@ const Work = () => {
                     <h1 className="work absolute right-[35%] bottom-0 translate-x-[20%] translate-y-[50%] text-[5vw]">Work</h1>
                 </div>
                 <div className="our-work-txt-div flex items-center justify-center overflow-hidden relative w-[60vw] h-0 bg-white ">
-                    <div className="w-[100%] h-[80vh] bg-[#919191] overflow-hidden ">
-                        <div className="scroll-img w-full mt-0  ">
-                            <Link to="contact-us"><img src="swiggy.png" alt="" className="w-[100%]   mb-2" /></Link>
-                            <Link to="contact-us"><img src="landing.png" alt="" className="w-[100%] mb-2" /></Link>
-                            <Link to="contact-us"><img src="currency.png" alt="" className="w-[100%] mb-2" /></Link>
-                            <Link to="contact-us"><img src="portfolio.png" alt="" className="w-[100%] mb-2" /></Link>
-                            <Link to="contact-us"><img src="pcl.png" alt="" className="w-[100%] mb-2" /></Link>
-                            <Link to="contact-us"><img src="pcl.png" alt="" className="w-[100%] mb-2" /></Link>
+                    <div className="w-[100%] h-[80vh] bg-[#919191] overflow-hidden relative ">
+                        <div className="scroll-img w-full  absolute">
+                            <Link to="contact-us"><img src="swiggy.png" alt="" className="lg:w-[100vw] h-[40vh] lg:h-[100vh]" /></Link>
+                            <Link to="contact-us"><img src="landing.png" alt="" className="w-[100%] h-[40vh] lg:h-[100vh]" /></Link>
+                            <Link to="contact-us"><img src="currency.png" alt="" className="w-[100%] h-[40vh] lg:h-[100vh]" /></Link>
+                            <Link to="contact-us"><img src="portfolio.png" alt="" className="w-[100%] h-[40vh] lg:h-[100vh]" /></Link>
+                            <Link to="contact-us"><img src="pcl.png" alt="" className="w-[100%] h-[40vh] lg:h-[100vh]" /></Link>
+                            
                            
                         </div>
                     </div>
