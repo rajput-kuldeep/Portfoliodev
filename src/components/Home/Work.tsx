@@ -54,8 +54,8 @@ const Work = () => {
 
     return (
         <>
-        <div ref={box} className="w-[100vw] min-h-[100vh] ">
-            <div className=" part-7 flex items-center justify-center w-[100vw] h-[100vh] bg-black text-white ">
+        <div ref={box} className="w-[100vw] h-[95vh]  ">
+            <div className=" part-7 flex items-center justify-center w-[100vw] h-[95vh] bg-black text-white ">
                 <div className=" our-work-txt absolute w-[60vw] h-0 ">
                     <h1 className="our absolute left-[35%] top-0 translate-x-[-20%] translate-y-[-50%] text-[5vw]">Our</h1>
                     <h1 className="work absolute right-[35%] bottom-0 translate-x-[20%] translate-y-[50%] text-[5vw]">Work</h1>
