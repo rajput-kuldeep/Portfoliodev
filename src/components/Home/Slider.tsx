@@ -36,16 +36,16 @@ const Slider = () => {
        <Link to= "https://swiggy-clone-3zmv.vercel.app"> <img src="swiggy.png" alt="" className='w-[100vw] bg-blue-500 h-full object-cover bg-center bg-cover rounded-xl border-[2px]'/></Link>
       </SwiperSlide>
       <SwiperSlide className='w-1/2 py-4'>
-       <Link to="https://web-landing-eosin.vercel.app/"> <img src="landing.png" alt=""  className='w-[70vw] h-full object-cover bg-center bg-cover rounded-xl' /></Link>
+       <Link to="https://web-landing-eosin.vercel.app/"> <img src="landing.png" alt=""  className='w-[100vw] bg-blue-500 h-full object-cover bg-center bg-cover rounded-xl border-[2px]' /></Link>
       </SwiperSlide>
       <SwiperSlide className='w-1/2 py-4'>
-        <Link to= "https://www.purecordylife.com"><img src="pcl.png" alt="" className='w-[70vw] h-full object-cover bg-center bg-cover rounded-xl' /></Link>
+        <Link to= "https://www.purecordylife.com"><img src="pcl.png" alt="" className='w-[100vw] bg-blue-500 h-full object-cover bg-center bg-cover rounded-xl border-[2px]' /></Link>
       </SwiperSlide>
       <SwiperSlide className='w-1/2 py-4'>
-       <Link to="https://currency-zeta.vercel.app/" > <img src="portfolio.png" alt="" className='w-[70vw] h-full object-cover bg-center bg-cover rounded-xl' /></Link>
+       <Link to="https://currency-zeta.vercel.app/" > <img src="portfolio.png" alt="" className='w-[100vw] bg-blue-500 h-full object-cover bg-center bg-cover rounded-xl border-[2px]' /></Link>
       </SwiperSlide>
       <SwiperSlide className='w-1/2 py-4'>
-        <img src="sidcup.png" alt=""  className='w-[70vw] h-full object-cover bg-center bg-cover rounded-xl'/>
+        <img src="sidcup.png" alt=""  className='w-[100vw] bg-blue-500 h-full object-cover bg-center bg-cover rounded-xl border-[2px]'/>
       </SwiperSlide>
       ...
     </Swiper>
